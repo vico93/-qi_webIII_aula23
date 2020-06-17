@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*
+{
+	font-family: "Segoe UI", sans-serif;
+}
+
+body
+{
+	background-color: silver;
+}
+
+h1
+{
+	color: gray;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 1px 3px rgba(150, 150, 150, 1);
+}
+
+fieldset
+{
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: white;
+	border-color: gray;
+	border-radius: 5px;
+}
+fieldset legend
+{
+	font-weight: bold;
+}
+
+.required:after
+{
+	content:"*";
+	color: red;
+}
+
+.campotexto
+{
+	margin: 5px;
+}
+.campotexto:focus
+{
+	outline:solid 1px red;
+}

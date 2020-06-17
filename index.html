@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>	
+		<title>Formulário</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1>Preencha com seus dados:</h1>
+		
+		<form action="#">
+			<fieldset>
+				<legend>Cadastro Login</legend>
+					<label for="nome" class="required">Nome:</label>
+					<input type="text" name="nome" id="nome" class="campotexto" required>
+					<br>
+					<label for="apelido">Apelido:</label>
+					<input type="text" name="apelido" id="apelido" class="campotexto">
+					<br>
+					<label for="email" class="required">E-mail:</label>
+					<input type="email" id="email" name="email" class="campotexto" required>					
+					<br>
+					<label for="senha" class="required">Senha:</label>
+					<input type="password" id="senha" name="senha" class="campotexto" required>
+					<br>
+					<label for="rsenha" class="required">Repetir Senha:</label>
+					<input type="password" id="rsenha" name="rsenha" class="campotexto" required>
+					<br>
+					<input type="submit" value="Enviar">
+					<input type="button" name="limpar" id="limpar" value="Limpar">
+			</fieldset>
+		</form>
+	</body>
+</html>
